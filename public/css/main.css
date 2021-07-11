@@ -1,0 +1,177 @@
+body {
+    background-image: url('../images/principal.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.navbar {
+    background: rgba(102, 235, 135, 0.8) !important;
+    border-bottom: 4px solid #088308;
+}
+
+.accordion {
+    min-height: 100vh;
+    background: rgba(102, 235, 135, 0.8);
+    width: 260px;
+
+}
+
+
+.accordion .accordion-body {
+    background: rgba(21, 36, 25, 0.4);
+    width: 260px !important;
+}
+
+.accordion .accordion-item .accordion-header button {
+    font-weight: bold;
+    color: #454545;
+}
+
+.accordion .accordion-item .accordion-header button:hover {
+    background: #1cda4b93;
+}
+
+.accordion .accordion-body a {
+    text-decoration: none;
+    display: block !important;
+    font-weight: 500;
+    color: #454545;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.accordion .accordion-body a:hover {
+    background: #86f0a1;
+    border-radius: 20px;
+    transform: scale(1.1);
+    color: white;
+    transition: all ease 500ms;
+}
+
+
+
+/* usuario create */
+.cardprincipal {
+    width: 75%;
+    height: 50%;
+    margin: 0 auto;
+    box-shadow: 3px 30px 50px #a69cc0;
+}
+
+form .mb-3 label {
+    font-weight: bold;
+    color: #54666e;
+}
+
+form .mb-3 input{
+    font-weight: bold;
+    background: #cdf8d0;
+    border: 1px solid #088308;
+}
+
+form .mb-3 select, option{
+    font-weight: bold;
+    background-color: #cdf8d0;
+}
+
+
+#ojo {
+    position: absolute;
+    right: 40px;
+    transform: translate(0, 5%);
+    top: 62%;
+    cursor: pointer;
+    font-size: 25px;
+}
+/*usuarios.index*/
+.index{
+    height: 50%;
+}
+/* usuarios.show*/
+#ojo{
+    position: absolute;
+    right: 15;
+    transform: translate(0, 100%);
+    top: 71%;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.show{
+    width:75%;
+}
+
+#atras:hover{
+  transform: scale(.9);
+}
+
+/*usuarios.edit*/
+.botones button:hover{
+   transform:scale(.9);
+}
+.botones a:hover{
+   transform:scale(.9);
+}
+
+/*paciente.create*/
+.paciente_create label{
+  font-weight:bold;
+}
+.dueño{
+    box-shadow: 5px 5px 15px 0px#111111;
+}
+.paciente_create button{
+    width:300px;
+    font-weight:bold;
+    border-radius: 50px;
+}
+.paciente_create button:hover{
+    transform:scale(0.95);
+}
+.paciente_create a{
+     width:300px;
+     font-weight:bold;
+     border-radius: 50px;
+}
+.paciente_create a:hover{
+    transform:scale(0.95);
+}
+
+/*paciente.index */
+
+
+.botones a:hover{
+   transform: scale(1.1);
+}
+.botones a{
+    box-shadow: 0px 5px 5px 0px #3a3939 ;
+}
+.botones-show form button:hover{
+    transform:scale(1.1);
+}
+.botones-show a:hover{
+    transform:scale(1.1);
+}
+
+/*tablas*/
+.m-o{
+    white-space: normal !important;
+
+}
+.om{
+    text-align:start;
+}
+.mb-3 #hpdf:hover{
+    transform:scale(0.5) !important;
+}
+
+
+/*historias.show*/
+.show a:hover{
+    transform:scale(1.1);
+}
+.show form button:hover{
+    transform:scale(1.1);
+}
