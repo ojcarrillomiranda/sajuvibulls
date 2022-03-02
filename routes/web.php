@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/', 'InicioController@inicio');
+Route::get('/', 'InicioController@inicio')->middleware('auth');
 Route::resource('usuarios', 'UsuariosController')->middleware('auth');
 Route::get('usuariosPDF', 'UsuariosController@usuariosPDF')->name('usuariospdf')->middleware('auth');
 Route::resource('pacientes', 'PacientesController');
