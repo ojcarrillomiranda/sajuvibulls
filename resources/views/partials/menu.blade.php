@@ -12,15 +12,15 @@
             <a href="#" class="nav-link disabled text-secondary fw-bold">{{ $permiso->permiso->rol }}</a>
         @endif
     @endforeach
-    <form action="{{ route('logout') }}" class="form-inline my-2 my-lg-0 mr-3" method="post">
+    <form action="{{ route('logout') }}" class=" cerrar form-inline my-2 my-lg-0 mr-3" method="post">
         @csrf
-        <button type="submit" class="btn btn-outline-danger border-0 my-2 my-sm-0"><i
+        <button type="submit"class="btn btn-outline-danger border-0 my-2 my-sm-0"><i
                 class="fab fa-expeditedssl fs-2"></i></button>
     </form>
 
 </nav>
 <div class="d-flex">
-    <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="d-none d-sm-block accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -114,3 +114,4 @@
     </div>
     @yield('content-2')
 </div>
+

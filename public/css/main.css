@@ -94,7 +94,7 @@ form .mb-3 select, option{
     position: absolute;
     right: 15;
     transform: translate(0, 100%);
-    top: 71%;
+    top: 49%;
     cursor: pointer;
     font-size: 25px;
 }
@@ -174,4 +174,15 @@ form .mb-3 select, option{
 }
 .show form button:hover{
     transform:scale(1.1);
+}
+
+@media (max-width:575px){
+    #ojo {
+        position: absolute;
+        right: 35px;
+        transform: translate(0, 5%);
+        top: 55%;
+        cursor: pointer;
+        font-size: 18px;
+    }
 }

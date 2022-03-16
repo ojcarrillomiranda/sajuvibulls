@@ -53,7 +53,7 @@ class UsuariosController extends Controller
     public function store(StoreUsuariosFormRequest $request)
     {
         $usuario = new User();
-        $usuario->tipo_documento = $request->tipo_documento;
+        $usuario->tipo_documento = $request->tipoDocumento;
         $usuario->documento = $request->documento;
         $usuario->name = $request->nombre;
         $usuario->apellido = $request->apellido;

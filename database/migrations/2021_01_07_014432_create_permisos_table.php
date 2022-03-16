@@ -6,11 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 class CreatePermisosTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
+
     public function up()
     {
         Schema::create('permisos', function (Blueprint $table) {
@@ -20,11 +16,7 @@ class CreatePermisosTable extends Migration
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
+ 
     public function down()
     {
         Schema::dropIfExists('permisos');

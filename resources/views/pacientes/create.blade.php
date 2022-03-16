@@ -67,7 +67,7 @@
                     </div>
                     <div class="card mt-3 border-success dueño">
                         <div class="card-body">
-                            <h2 class="bg-success text-center"> O REPRESENTANTE</h2>
+                            <h2 class="bg-success text-center">REPRESENTANTE</h2>
                             <div class="row">
                                 <div class="col">
                                    <label for="documento" class="form-label">Documento</label>

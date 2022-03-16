@@ -25,8 +25,8 @@ class StoreUsuariosFormRequest extends FormRequest
     public function rules()
     {
         return [
-            'tipoDocumento' => 'nullable',
-            'documento' => 'nullable | max:11 | min:11 | numeric',
+            'tipoDocumento' => 'required',
+            'documento' => 'required | numeric',
             'nombre' => 'required',
             'apellido' => 'required',
             'usuario' => 'required | unique:users,username',
@@ -43,8 +43,6 @@ class StoreUsuariosFormRequest extends FormRequest
 
            'tipoDocumento.required' => 'Seleccione tipo de documento',
            'documento.required' => 'Documento requerido',
-           'documento.max' => 'Su documento debe tener 10 digitos',
-           'documento.min' => 'Su documento debe tener 10 digitos',
            'documento.numeric' => 'Documento no puede contener letras',
            'nombre.required' => 'Nombre es requerido',
            'apellido.required' => 'Apellido requerido',
