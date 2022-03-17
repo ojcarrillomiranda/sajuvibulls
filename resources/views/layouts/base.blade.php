@@ -48,6 +48,7 @@
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
         <script src="{{ asset('js/create.js') }}"></script>
         <script src="{{ asset('js/dataTables.js') }}"></script>
+        <script src="{{ asset('js/modificaciones.js') }}"></script>
 
       @yield('js')
 </body>
