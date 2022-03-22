@@ -6,7 +6,7 @@
     <div class="container-fluid paciente_create">
         <div class="card">
             <div class="card-body">
-                <h2 class="bg-success text-center">PACIENTE...</h2>
+                <h2 class="bg-success text-center">PACIENTE</h2>
                 <form class="row" action="/pacientes/{{ $paciente->id }}" method="post" enctype="multipart/form-data">
                     @method('put')
                     @csrf
@@ -63,7 +63,7 @@
                     </div>
                     <div class="card mt-3 border-success dueño">
                         <div class="card-body">
-                            <h2 class="bg-success text-center">DUEÑO O REPRESENTANTE</h2>
+                            <h2 class="bg-success text-center">REPRESENTANTE</h2>
                             <div class="row">
                                 <div class="col">
                                     <label for="documento" class="form-label">Documento</label>

@@ -6,7 +6,7 @@
     <div class="paciente_create">
         <div class="card border-success">
             <div class="card-body">
-                <h2 class="bg-success text-center">MODIFICAR DATOS</h2>
+                <h2 class="bg-success text-center">OBSERVACIONES Y MEDICAMENTOS</h2>
 
                 <form class="row" action="/historias/{{ $historia->id }}" method="post" enctype="multipart/form-data">
                     @method('put')
